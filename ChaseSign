@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+    body {
+        font-family: 'Helvetica', sans-serif;
+        font-size: 14px;
+        color: #333;
+        line-height: 1.4;
+        margin: 0;
+        padding: 0;
+    }
+    .email-signature {
+        padding-left: 15px; /* Increased padding to add space */
+        padding-top: 8px;
+    }
+    .content-section {
+        border-left: 3px solid #00021A; /* Line color */
+        padding-left: 8px;
+    }
+    .email-signature h2 {
+        font-size: 16px;
+        margin-bottom: 2px;
+        color: #000;
+    }
+    .email-signature p {
+        margin: 2px 0;
+        font-size: 14px;
+        color: #333;
+    }
+    .email-signature a {
+        text-decoration: none;
+        color: #19469D; /* Updated link color */
+        font-size: 14px; /* Ensure links are consistently styled */
+    }
+    .italic {
+        font-style: italic;
+        /*margin-bottom: 0px;  Half line of space after eXp Commercial */
+    }
+    .contactbreak {
+        margin-bottom: 8px; /* Adding class to create space between eXp Commercial and Phone Numbers*/
+    }
+    .separator {
+        border-left: 3px solid #00021A; /* Line color for consistency */
+        margin: 0 10px;
+        height: 18px; /* Approximate height to align with text */
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .email-signature img {
+        width: 180px;
+        height: auto;
+        border-radius: 5px;
+        margin-top: 0px;
+        display: block; /* Ensures the image does not inherit any border */
+    }
+    .email-signature .small-text, .email-signature .small-text a {
+        font-size: 10px; /* Ensures small text size overrides other settings */
+        color: #666;
+    }
+</style>
+</head>
+<body>
+<div class="email-signature">
+    <div class="content-section">
+        <h2>Chase W. Aldridge</h2>
+        <p class="italic">Commercial Broker</p>
+        <p class="italic" class="contactbreak">eXp Commercial</p>
+        <p class="small-text"> <br> </p>
+        <p>Cell: <a href="tel:+15417713011">(541) 771 - 3011</a> <span class="separator"></span> Office: <a href="tel:+17207388006">(720) 738 - 8006</a></p>
+        <p>Email: <a href="mailto:Chase.Aldridge@expcommercialre.net">Chase.Aldridge@expcommercialre.net</a></p>
+    </div>
+    <br>
+    <img src="https://i.imgur.com/EhK6vr0.jpeg" alt="eXp Commercial">
+    <br>
+    <p class="small-text">CONFIDENTIALITY NOTICE AND DISCLAIMER: This email is designated solely for the individual or entity to whom it has been addressed and may include confidential and/or privileged information. Unauthorized review, use, or disclosure of this information is forbidden. If this message has reached you in error, please respond to this email immediately and delete all copies of the original message. If you are the intended recipient and wish to discontinue receiving emails through this medium, please inform the sender promptly. This message should not be considered a digital or electronic signature capable of authenticating any legal or contractual documents. The sender and eXp Commercial are not authorized to offer legal, financial, or tax advice. Recipients requiring such counsel should consult their own attorney, accountant, or tax advisor regarding any investments.</p>
+</div>
+</body>
+</html>
